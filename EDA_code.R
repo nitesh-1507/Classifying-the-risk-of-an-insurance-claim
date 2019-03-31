@@ -8,7 +8,7 @@
 
 library(ISLR)
 library(MASS)
-mydata <-read.csv("C:\\Users\\gaura\\Desktop\\613\\TAMU ISEN 613\\ASSIGNMENT\\PROJECT\\submitted\\train_EDA_project.csv", na.strings = '?')
+mydata <-read.csv("train_data.csv", na.strings = '?')
 mydata<-na.omit(mydata)        
 
 
@@ -48,7 +48,7 @@ mean(data.test$C_Claim!=qda_pred_with_threshold)
 
 # checking on the test data 
 
-test.final <- read.csv("C:\\Users\\gaura\\Desktop\\613\\TAMU ISEN 613\\ASSIGNMENT\\PROJECT\\submitted\\test_set_final.csv", na.strings = '?')
+test.final <- read.csv("test_data.csv", na.strings = '?')
 
 
 test.final$Calendar_Year <- as.factor(test.final$Calendar_Year)
