@@ -1,9 +1,9 @@
-#The guidelines to execute the code
-#1) The codes are in order so execution should be line by line
-#2) Skipping any line could hamper the execution of code
-#3) Firstly libraries should be called
-#4) Preprocessed dataset is to be imported next
-#5) Post all this just the line by line execution will give the desired error rate
+#The guidelines to execute the code:
+  #1) The codes are in order so execution should be line by line
+  #2) Skipping any line could hamper the execution of code
+  #3) Firstly libraries should be called
+  #4) Preprocessed dataset is to be imported next
+  #5) Post all this just the line by line execution will give the desired error rate
 
 
 library(ISLR)
